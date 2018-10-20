@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "782334484417",
+    "firebase_url": "https://intelligenttrader-6307e.firebaseio.com",
+    "project_id": "intelligenttrader-6307e",
+    "storage_bucket": "intelligenttrader-6307e.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:782334484417:android:e09d88dc8e1bdd92",
+        "android_client_info": {
+          "package_name": "com.thesmader.intelligenttrader"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "782334484417-43bdbvk3hni2dvd6rh2oc66a5v6mlf6o.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.thesmader.intelligenttrader",
+            "certificate_hash": "c483a090db6a3720bbcfe126ec167cf61ccac6c6"
+          }
+        },
+        {
+          "client_id": "782334484417-bs0hjes4up68n9a89r23tuu3s4v7upkm.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBgk-rGAMnepOwFO_027aq9i5Xb2dZwaIo"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "782334484417-bs0hjes4up68n9a89r23tuu3s4v7upkm.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
