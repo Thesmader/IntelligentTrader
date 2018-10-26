@@ -3,26 +3,36 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/trading_graph"
-    app:startDestination="@id/loginFragment">
+    app:startDestination="@id/chatList">
 
     <fragment
-        android:id="@+id/loginFragment"
-        android:name="com.thesmader.intelligenttrader.LoginFragment"
+        android:id="@+id/regFragment"
+        android:name="com.thesmader.intelligenttrader.RegisterFragment"
         android:label="fragment_login"
-        tools:layout="@layout/fragment_login" >
+        tools:layout="@layout/fragment_register">
         <action
-            android:id="@+id/toChatList"
-            app:destination="@id/chatList"
-            app:enterAnim="@anim/nav_default_enter_anim"
-            app:exitAnim="@anim/nav_default_exit_anim"
-            app:popEnterAnim="@anim/nav_default_enter_anim"
-            app:popExitAnim="@anim/nav_default_pop_exit_anim"
-            app:popUpTo="@+id/loginFragment"
-            app:popUpToInclusive="true" />
+            android:id="@+id/reg_to_login"
+            app:destination="@+id/loginFragment" />
+        <action
+            android:id="@+id/reg_to_chatList"
+            app:destination="@id/chatList" />
     </fragment>
     <fragment
         android:id="@+id/chatList"
         android:name="com.thesmader.intelligenttrader.ChatList"
         android:label="fragment_chat_list"
-        tools:layout="@layout/fragment_chat_list" />
+        tools:layout="@layout/fragment_chat_list" >
+        <action
+            android:id="@+id/user_logged_out"
+            app:destination="@id/regFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/loginFragment"
+        android:name="com.thesmader.intelligenttrader.LoginFragment"
+        android:label="fragment_login"
+        tools:layout="@layout/fragment_login">
+        <action
+            android:id="@+id/action_loginFragment_to_chatList"
+            app:destination="@id/chatList" />
+    </fragment>
 </navigation>
