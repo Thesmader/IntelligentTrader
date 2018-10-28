@@ -19,7 +19,12 @@
                         </option>
                         <option name="myPositions">
                           <map>
-                            <entry key="action_chatList_to_regFragment">
+                            <entry key="action_chatList_to_newMessage">
+                              <value>
+                                <LayoutPositions />
+                              </value>
+                            </entry>
+                            <entry key="user_logged_out">
                               <value>
                                 <LayoutPositions />
                               </value>
@@ -46,6 +51,18 @@
                               </value>
                             </entry>
                           </map>
+                        </option>
+                      </LayoutPositions>
+                    </value>
+                  </entry>
+                  <entry key="newMessage">
+                    <value>
+                      <LayoutPositions>
+                        <option name="myPosition">
+                          <Point>
+                            <option name="x" value="771" />
+                            <option name="y" value="190" />
+                          </Point>
                         </option>
                       </LayoutPositions>
                     </value>

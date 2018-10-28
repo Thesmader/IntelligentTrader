@@ -25,6 +25,10 @@
         <action
             android:id="@+id/user_logged_out"
             app:destination="@id/regFragment" />
+        <action
+            android:id="@+id/to_new_message"
+            app:destination="@id/newMessage"
+            app:popUpTo="@+id/chatList" />
     </fragment>
     <fragment
         android:id="@+id/loginFragment"
@@ -35,4 +39,9 @@
             android:id="@+id/action_loginFragment_to_chatList"
             app:destination="@id/chatList" />
     </fragment>
+    <fragment
+        android:id="@+id/newMessage"
+        android:name="com.thesmader.intelligenttrader.NewMessage"
+        android:label="fragment_new_message"
+        tools:layout="@layout/fragment_new_message" />
 </navigation>
