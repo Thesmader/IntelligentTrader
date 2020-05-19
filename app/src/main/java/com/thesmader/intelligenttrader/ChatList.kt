@@ -23,6 +23,10 @@ class ChatList : Fragment() {
 
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
+
+        new_meesgae_fab.setOnClickListener {
+            it.findNavController().navigate(R.id.to_new_message)
+        }
     }
 
     private fun verifyUserLogin() {
